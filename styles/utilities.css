@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+a:hover,
+a.page {
+    color: var(--btn-color);
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    margin: 250px var(--sections-margin);
+}
+
+button {
+    width: var(--btn-width);
+    height: var(--btn-height);
+    border-radius: var(--box-border-radius);
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--boxText-color);
+    background-color: red;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop-cultura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/utilities.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="popup-content">
+            <button class="close-btn">x</button>
+            <form action="" class="form">    
+                <h2>Sign Up</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Create Password">
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search something...">
+            <span class="fa fa-search"></span>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-logo"><a href="index.html"><span id = 'logo'>popCULTURA</span></a></div>
+            <div class="nav-items">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="movies.html">Movies</a></li>
+                    <li class="nav-item"><a href="movies.html">Music</a></li>
+                    <li class="nav-item"><a href="tech.html">Tech</a></li>
+                </ul>
+                <div class="nav-search">
+                    <i class ='search-btn fa fa-search'></i>
+                </div>
+                <div class="nav-auth">
+                    <button class="auth-btn">Sign Up</button>
+                </div>
+            </div>
+    </header>
+
+    <!-- MAIN PART -->
+    <main id="main">
+        <section class="section section-1">
+            <h2>Most Interesting</h2>
+            <div class="blog">
+                <div class="blog-container blog-container-1">
+                </div>
+                <div class="blog-container">
+                </div>
+                <div class="blog-container">
+                </div>
+                <div class="blog-container blog-container-4">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Music</h2>
+            <div class="blog-ver2 ">
+                <div class="blog-container">
+                </div>
+                <div class="blog-container">
+                </div>
+                <div class="blog-container">
+                </div>
+                <div class="blog-container">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>New Movies Airing</h2>
+            <div class="slider-block">
+                <div class="swiper slider-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg"alt=""></div>
+                        <div class="swiper-slide"><img src="https://m.media-amazon.com/images/M/MV5BODI0YjNhNjUtYjM0My00MTUwLWFlYTMtMWI2NGUzYjNjNGQzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ade65029-952f-488d-87b2-20c676970151/600x900" alt=""></div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Technology</h2>
+            <div class="blog">
+                    <div class="blog-container blog-container-1">
+                    </div>
+                    <div class="blog-container">
+                    </div>
+                    <div class="blog-container">
+                    </div>
+                    <div class="blog-container blog-container-4">
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact">
+            <p>If you have any questions <br>feel free to contact popcultBlog@gmail.com</p>
+        </div>
+        <ul class="footer-nav">
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-twitter"></li>
+            <li class="fa fa-telegram"></li>
+        </ul>
+    </footer>
+
+    <script src="js/swiper.js"></script>
+    <script src="/js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
